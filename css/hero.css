@@ -5,6 +5,7 @@ html, body{
 
 header{
 
+	background-image: url('../img/big-image-2.jpg');
 	background-color: #004d4d;
 	padding: 40px;
 	text-align: center;
@@ -12,12 +13,22 @@ header{
 	h1{
 		font-size: 90px;
 		color: white;
+		text-shadow: 2px 4px 20px black;
+	}
+
+	h2{
+		color: #00b3b3;
+		text-align: center;
+	}
+	p{
+		text-align: center;
 	}
 
 	header img{
 		border-radius: 150px;
 		width: 300px;
 		border: 18px solid #00b3b3;
+		box-shadow: 2px 4px 20px black;
  
 
 	}
@@ -44,8 +55,13 @@ ul{
 }
 
 a{
-	color: red;
+	color: white;
+	background-color: #004d4d;
 	text-decoration: none;
+}
+
+a:hover{
+	background-color: #00cc00;
 }
 
 footer{
